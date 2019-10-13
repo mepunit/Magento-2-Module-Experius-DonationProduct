@@ -79,7 +79,7 @@ class OrderItemSaveAfter implements ObserverInterface
         /** @var \Magento\Sales\Model\Order\Item $orderItem */
         $orderItem = $event->getItem();
 
-        if ($orderItem->getProductType() != Donation::TYPE_CODE) {
+        if ($orderItem->getProductType() != Subscription::TYPE_CODE) {
             return;
         }
 
