@@ -45,7 +45,7 @@ class ProductSaveAfter implements \Magento\Framework\Event\ObserverInterface
         /* @var $product \Magento\Catalog\Model\Product */
         $product = $observer->getProduct();
 
-        if ($product->getTypeId()== Donation::TYPE_CODE) {
+        if ($product->getTypeId()== Subscription::TYPE_CODE) {
             $stockItem = $this->stockRegistry->getStockItemBySku($product->getSku());
 
             if ($stockItem->getManageStock()) {
