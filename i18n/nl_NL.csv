@@ -3,7 +3,7 @@ Donations,Donaties
 "Could not save the donations: %1","Could not save the donations: %1"
 "Donations with id ""%1"" does not exist.","Donations with id ""%1"" does not exist."
 "Could not delete the Donations: %1","Could not delete the Donations: %1"
-"You need to choose a amount to donate","You need to choose a amount to donate"
+"You need to choose a Subscription Plan","You need to choose a Subscription Plan"
 "Please enter a donation amount","Please enter a donation amount"
 "Donation amount lower then minimal amount","Donatie bedrag lager dan minimum"
 "Donation amount higher then maximal amount","Donatie bedrag hoger dan minimum"

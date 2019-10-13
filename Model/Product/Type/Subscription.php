@@ -123,7 +123,7 @@ class Subscription extends \Magento\Catalog\Model\Product\Type\AbstractType
      */
     public function getSpecifyOptionMessage()
     {
-        return __('You need to choose a amount to donate');
+        return __('You need to choose a Subscription Plan');
     }
 
     /**
@@ -190,7 +190,7 @@ class Subscription extends \Magento\Catalog\Model\Product\Type\AbstractType
             $finalAmount = ($amount>0) ? $amount : $amountFixed;
 
             if (!$finalAmount) {
-                throw new \Magento\Framework\Exception\LocalizedException(__('Please enter a donation amount'));
+                throw new \Magento\Framework\Exception\LocalizedException(__('Please enter a Subscription'));
             }
 
             if ($finalAmount<$this->donationProductHelper->getMinimalAmount($product)) {
