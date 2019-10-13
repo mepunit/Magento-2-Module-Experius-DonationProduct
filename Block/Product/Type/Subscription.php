@@ -29,7 +29,7 @@ use ShivankitTech\SubsMod\Helper\Data as DonationHelper;
  * Class Donation
  * @package ShivankitTech\SubsMod\Block\Product\Type
  */
-class Donation extends AbstractProduct
+class Subscription extends AbstractProduct
 {
     /**
      * @var DonationHelper
