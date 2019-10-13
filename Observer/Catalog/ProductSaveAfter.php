@@ -19,9 +19,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Observer\Catalog;
+namespace ShivankitTech\SubsMod\Observer\Catalog;
 
-use Experius\DonationProduct\Model\Product\Type\Donation;
+use ShivankitTech\SubsMod\Model\Product\Type\Subscription;
 use \Magento\CatalogInventory\Api\StockRegistryInterface;
 
 class ProductSaveAfter implements \Magento\Framework\Event\ObserverInterface

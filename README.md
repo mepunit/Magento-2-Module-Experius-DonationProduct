@@ -89,7 +89,7 @@ The full size block is visible on the homepage. It can be disabled in the settin
 
 ```xml
 <referenceContainer name="content">
-  <block class="Experius\DonationProduct\Block\Donation\ListProduct" name="donation.block" after="-" template="Experius_DonationProduct::donation.phtml"/>
+  <block class="ShivankitTech\SubsMod\Block\Donation\ListProduct" name="donation.block" after="-" template="Experius_DonationProduct::donation.phtml"/>
 </referenceContainer>  
 ```
 

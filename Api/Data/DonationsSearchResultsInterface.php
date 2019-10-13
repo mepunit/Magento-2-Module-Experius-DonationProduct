@@ -19,11 +19,11 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Api\Data;
+namespace ShivankitTech\SubsMod\Api\Data;
 
 /**
  * Interface DonationsSearchResultsInterface
- * @package Experius\DonationProduct\Api\Data
+ * @package ShivankitTech\SubsMod\Api\Data
  */
 interface DonationsSearchResultsInterface extends \Magento\Framework\Api\SearchResultsInterface
 {
@@ -31,13 +31,13 @@ interface DonationsSearchResultsInterface extends \Magento\Framework\Api\SearchR
 
     /**
      * Get Donations list.
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface[]
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface[]
      */
     public function getItems();
 
     /**
      * Set name list.
-     * @param \Experius\DonationProduct\Api\Data\DonationsInterface[] $items
+     * @param \ShivankitTech\SubsMod\Api\Data\DonationsInterface[] $items
      * @return $this
      */
     public function setItems(array $items);

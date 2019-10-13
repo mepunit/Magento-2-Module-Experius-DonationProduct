@@ -20,7 +20,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Controller\Cart;
+namespace ShivankitTech\SubsMod\Controller\Cart;
 
 class Add extends \Magento\Checkout\Controller\Cart\Add
 {

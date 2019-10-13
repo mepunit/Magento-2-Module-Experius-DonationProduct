@@ -19,14 +19,14 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Model;
+namespace ShivankitTech\SubsMod\Model;
 
-use Experius\DonationProduct\Api\Data\DonationOptionsInterface;
+use ShivankitTech\SubsMod\Api\Data\DonationOptionsInterface;
 use Magento\Framework\Model\AbstractExtensibleModel;
 
 /**
  * Class DonationOptions
- * @package Experius\DonationProduct\Model
+ * @package ShivankitTech\SubsMod\Model
  */
 class DonationOptions extends AbstractExtensibleModel implements DonationOptionsInterface
 {
@@ -43,7 +43,7 @@ class DonationOptions extends AbstractExtensibleModel implements DonationOptions
     /**
      * Set amount
      * @param string $amount
-     * @return \Experius\DonationProduct\Api\Data\ConfiguratorOptionsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\ConfiguratorOptionsInterface
      */
     public function setAmount($amount)
     {

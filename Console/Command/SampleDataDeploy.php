@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Console\Command;
+namespace ShivankitTech\SubsMod\Console\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -38,7 +38,7 @@ class SampleDataDeploy extends Command
     private $state;
 
     public function __construct(
-        \Experius\DonationProduct\Model\SampleData $donationSampleDataModel,
+        \ShivankitTech\SubsMod\Model\SampleData $donationSampleDataModel,
         \Magento\Framework\App\State $state
     ) {
         $this->donationSampleDataModel = $donationSampleDataModel;

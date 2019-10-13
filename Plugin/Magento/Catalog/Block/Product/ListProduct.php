@@ -19,11 +19,11 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Plugin\Magento\Catalog\Block\Product;
+namespace ShivankitTech\SubsMod\Plugin\Magento\Catalog\Block\Product;
 
 /**
  * Class ListProduct
- * @package Experius\DonationProduct\Plugin\Magento\Catalog\Block\Product
+ * @package ShivankitTech\SubsMod\Plugin\Magento\Catalog\Block\Product
  */
 class ListProduct
 {

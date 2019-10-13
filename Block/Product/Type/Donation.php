@@ -19,15 +19,15 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Block\Product\Type;
+namespace ShivankitTech\SubsMod\Block\Product\Type;
 
 use Magento\Catalog\Block\Product\AbstractProduct;
 use Magento\Catalog\Block\Product\Context;
-use Experius\DonationProduct\Helper\Data as DonationHelper;
+use ShivankitTech\SubsMod\Helper\Data as DonationHelper;
 
 /**
  * Class Donation
- * @package Experius\DonationProduct\Block\Product\Type
+ * @package ShivankitTech\SubsMod\Block\Product\Type
  */
 class Donation extends AbstractProduct
 {

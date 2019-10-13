@@ -19,10 +19,10 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Block\Donation;
+namespace ShivankitTech\SubsMod\Block\Donation;
 
 use Magento\Framework\View\Element\Template\Context;
-use Experius\DonationProduct\Helper\Data as DonationHelper;
+use ShivankitTech\SubsMod\Helper\Data as DonationHelper;
 use Magento\Catalog\Model\ProductRepository;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\Api\SortOrder;
@@ -31,7 +31,7 @@ use Magento\Catalog\Block\Product\ImageBuilder;
 
 /**
  * Class ListProduct
- * @package Experius\DonationProduct\Block\Donation
+ * @package ShivankitTech\SubsMod\Block\Donation
  */
 class ListProduct extends \Magento\Framework\View\Element\Template
 {

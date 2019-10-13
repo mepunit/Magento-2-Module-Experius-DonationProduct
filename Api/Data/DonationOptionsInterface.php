@@ -19,11 +19,11 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Api\Data;
+namespace ShivankitTech\SubsMod\Api\Data;
 
 /**
  * Interface DonationOptionsInterface
- * @package Experius\DonationProduct\Api\Data
+ * @package ShivankitTech\SubsMod\Api\Data
  */
 interface DonationOptionsInterface
 {
@@ -39,7 +39,7 @@ interface DonationOptionsInterface
     /**
      * Set amount
      * @param string $amount
-     * @return \Experius\DonationProduct\Api\Data\DonationOptionsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationOptionsInterface
      */
     public function setAmount($amount);
 }

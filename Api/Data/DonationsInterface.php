@@ -19,11 +19,11 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Api\Data;
+namespace ShivankitTech\SubsMod\Api\Data;
 
 /**
  * Interface DonationsInterface
- * @package Experius\DonationProduct\Api\Data
+ * @package ShivankitTech\SubsMod\Api\Data
  */
 interface DonationsInterface
 {
@@ -48,7 +48,7 @@ interface DonationsInterface
     /**
      * Set donations_id
      * @param string $donationsId
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setDonationsId($donationsId);
 
@@ -61,7 +61,7 @@ interface DonationsInterface
     /**
      * Set name
      * @param string $name
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setName($name);
 
@@ -74,7 +74,7 @@ interface DonationsInterface
     /**
      * Set sku
      * @param string $sku
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setSku($sku);
 
@@ -87,7 +87,7 @@ interface DonationsInterface
     /**
      * Set amount
      * @param string $amount
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setAmount($amount);
 
@@ -100,7 +100,7 @@ interface DonationsInterface
     /**
      * Set order_item_id
      * @param string $order_item_id
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setOrderItemId($order_item_id);
 
@@ -113,7 +113,7 @@ interface DonationsInterface
     /**
      * Set order_id
      * @param string $order_id
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setOrderId($order_id);
 
@@ -126,7 +126,7 @@ interface DonationsInterface
     /**
      * Set order_status
      * @param string $order_status
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setOrderStatus($order_status);
 
@@ -139,7 +139,7 @@ interface DonationsInterface
     /**
      * Set invoiced
      * @param string $invoiced
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setInvoiced($invoiced);
 
@@ -152,7 +152,7 @@ interface DonationsInterface
     /**
      * Set created_at
      * @param string $createdAt
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setCreatedAt($createdAt);
 }

@@ -19,13 +19,13 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Plugin\Magento\Checkout\Block\Cart\Item;
+namespace ShivankitTech\SubsMod\Plugin\Magento\Checkout\Block\Cart\Item;
 
-use Experius\DonationProduct\Helper\Data;
+use ShivankitTech\SubsMod\Helper\Data;
 
 /**
  * Class Renderer
- * @package Experius\DonationProduct\Plugin\Magento\Checkout\Block\Cart\Item
+ * @package ShivankitTech\SubsMod\Plugin\Magento\Checkout\Block\Cart\Item
  */
 class Renderer
 {
@@ -58,7 +58,7 @@ class Renderer
         $item = $subject->getItem();
         $product = $item->getProduct();
         $typeId = $product->getTypeId();
-        if ($typeId == \Experius\DonationProduct\Model\Product\Type\Donation::TYPE_CODE) {
+        if ($typeId == \ShivankitTech\SubsMod\Model\Product\Type\Subscription::TYPE_CODE) {
             $itemOption = $item->getOptionByCode(Data::DONATION_OPTION_CODE);
             $options = [];
             $showOptionsInCart = false;

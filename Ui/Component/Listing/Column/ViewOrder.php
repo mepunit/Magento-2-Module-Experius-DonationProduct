@@ -20,11 +20,11 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Ui\Component\Listing\Column;
+namespace ShivankitTech\SubsMod\Ui\Component\Listing\Column;
 
 /**
  * Class ViewOrder
- * @package Experius\DonationProduct\Ui\Component\Listing\Column
+ * @package ShivankitTech\SubsMod\Ui\Component\Listing\Column
  */
 class ViewOrder extends \Magento\Ui\Component\Listing\Columns\Column
 {

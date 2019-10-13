@@ -19,14 +19,14 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Block\Checkout;
+namespace ShivankitTech\SubsMod\Block\Checkout;
 
-use Experius\DonationProduct\Helper\Data as DonationHelper;
-use Experius\DonationProduct\Block\Donation\ListProductFactory as DonationProductsFactory;
+use ShivankitTech\SubsMod\Helper\Data as DonationHelper;
+use ShivankitTech\SubsMod\Block\Donation\ListProductFactory as DonationProductsFactory;
 
 /**
  * Class LayoutProcessor
- * @package Experius\DonationProduct\Block\Checkout
+ * @package ShivankitTech\SubsMod\Block\Checkout
  */
 class LayoutProcessor implements \Magento\Checkout\Block\Checkout\LayoutProcessorInterface
 {
@@ -37,7 +37,7 @@ class LayoutProcessor implements \Magento\Checkout\Block\Checkout\LayoutProcesso
     private $donationHelper;
 
     /**
-     * @var \Experius\DonationProduct\Block\Donation\ListProduct
+     * @var \ShivankitTech\SubsMod\Block\Donation\ListProduct
      */
     private $donationProductsFactory;
 

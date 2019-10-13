@@ -19,13 +19,13 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Model\ResourceModel;
+namespace ShivankitTech\SubsMod\Model\ResourceModel;
 
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 
 /**
  * Class Donations
- * @package Experius\DonationProduct\Model\ResourceModel
+ * @package ShivankitTech\SubsMod\Model\ResourceModel
  */
 class Donations extends AbstractDb
 {

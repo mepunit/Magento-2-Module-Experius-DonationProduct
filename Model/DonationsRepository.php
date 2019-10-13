@@ -19,24 +19,24 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Model;
+namespace ShivankitTech\SubsMod\Model;
 
-use Experius\DonationProduct\Model\ResourceModel\Donations as ResourceDonations;
+use ShivankitTech\SubsMod\Model\ResourceModel\Donations as ResourceDonations;
 use Magento\Framework\Exception\NoSuchEntityException;
-use Experius\DonationProduct\Model\ResourceModel\Donations\CollectionFactory as DonationsCollectionFactory;
+use ShivankitTech\SubsMod\Model\ResourceModel\Donations\CollectionFactory as DonationsCollectionFactory;
 use Magento\Framework\Reflection\DataObjectProcessor;
 use Magento\Framework\Api\SortOrder;
-use Experius\DonationProduct\Api\DonationsRepositoryInterface;
+use ShivankitTech\SubsMod\Api\DonationsRepositoryInterface;
 use Magento\Framework\Api\DataObjectHelper;
 use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Store\Model\StoreManagerInterface;
-use Experius\DonationProduct\Api\Data\DonationsInterfaceFactory;
+use ShivankitTech\SubsMod\Api\Data\DonationsInterfaceFactory;
 use Magento\Framework\Exception\CouldNotDeleteException;
-use Experius\DonationProduct\Api\Data\DonationsSearchResultsInterfaceFactory;
+use ShivankitTech\SubsMod\Api\Data\DonationsSearchResultsInterfaceFactory;
 
 /**
  * Class DonationsRepository
- * @package Experius\DonationProduct\Model
+ * @package ShivankitTech\SubsMod\Model
  */
 class DonationsRepository implements donationsRepositoryInterface
 {
@@ -116,7 +116,7 @@ class DonationsRepository implements donationsRepositoryInterface
      * {@inheritdoc}
      */
     public function save(
-        \Experius\DonationProduct\Api\Data\DonationsInterface $donations
+        \ShivankitTech\SubsMod\Api\Data\DonationsInterface $donations
     ) {
         /* if (empty($donations->getStoreId())) {
             $storeId = $this->storeManager->getStore()->getId();
@@ -188,7 +188,7 @@ class DonationsRepository implements donationsRepositoryInterface
      * {@inheritdoc}
      */
     public function delete(
-        \Experius\DonationProduct\Api\Data\DonationsInterface $donations
+        \ShivankitTech\SubsMod\Api\Data\DonationsInterface $donations
     ) {
         try {
             $donations->getResource()->delete($donations);
@@ -214,7 +214,7 @@ class DonationsRepository implements donationsRepositoryInterface
      */
     public function getDonationsByOrderId($orderId)
     {
-        /** @var \Experius\DonationProduct\Model\Donations $donations */
+        /** @var \ShivankitTech\SubsMod\Model\Donations $donations */
         $collectionFactory = $this->donationsCollectionFactory->create()->addFieldToFilter('order_id', $orderId);
 
         return $collectionFactory;

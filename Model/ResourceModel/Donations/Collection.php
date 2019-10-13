@@ -19,13 +19,13 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Model\ResourceModel\Donations;
+namespace ShivankitTech\SubsMod\Model\ResourceModel\Donations;
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
 /**
  * Class Collection
- * @package Experius\DonationProduct\Model\ResourceModel\Donations
+ * @package ShivankitTech\SubsMod\Model\ResourceModel\Donations
  */
 class Collection extends AbstractCollection
 {
@@ -37,8 +37,8 @@ class Collection extends AbstractCollection
     public function _construct()
     {
         $this->_init(
-            'Experius\DonationProduct\Model\Donations',
-            'Experius\DonationProduct\Model\ResourceModel\Donations'
+            'ShivankitTech\SubsMod\Model\Donations',
+            'ShivankitTech\SubsMod\Model\ResourceModel\Donations'
         );
     }
 }

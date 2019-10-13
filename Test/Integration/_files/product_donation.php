@@ -7,7 +7,7 @@
 $product = \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->create(\Magento\Catalog\Model\Product::class);
 
 $product
-    ->setTypeId(\Experius\DonationProduct\Model\Product\Type\Donation::TYPE_CODE)
+    ->setTypeId(\ShivankitTech\SubsMod\Model\Product\Type\Subscription::TYPE_CODE)
     ->setId(999)
     ->setAttributeSetId(4)
     ->setWebsiteIds([1])

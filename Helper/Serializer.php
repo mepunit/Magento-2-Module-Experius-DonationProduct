@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Helper;
+namespace ShivankitTech\SubsMod\Helper;
 
 use Braintree\Exception;
 use Magento\Framework\App\Helper\AbstractHelper;
@@ -31,7 +31,7 @@ use Magento\Framework\Exception\NoSuchEntityException;
 
 /**
  * Class Serializer
- * @package Experius\DonationProduct\Helper
+ * @package ShivankitTech\SubsMod\Helper
  */
 class Serializer extends AbstractHelper
 {

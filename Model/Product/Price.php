@@ -19,15 +19,15 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Model\Product;
+namespace ShivankitTech\SubsMod\Model\Product;
 
 use Magento\Framework\Pricing\PriceCurrencyInterface;
 use Magento\Customer\Api\GroupManagementInterface;
-use Experius\DonationProduct\Helper\Data;
+use ShivankitTech\SubsMod\Helper\Data;
 
 /**
  * Class Price
- * @package Experius\DonationProduct\Model\Product
+ * @package ShivankitTech\SubsMod\Model\Product
  */
 class Price extends \Magento\Catalog\Model\Product\Type\Price
 {

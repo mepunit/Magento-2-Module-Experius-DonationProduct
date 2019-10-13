@@ -1,10 +1,10 @@
-<?php /* @var $block \Experius\DonationProduct\Block\Product\Type\Donation */ ?>
+<?php /* @var $block \ShivankitTech\SubsMod\Block\Product\Type\Subscription */ ?>
 
 <div class="product-options-wrapper" id="product-options-wrapper">
     <div class="fieldset">
         <div class="field">
             <label class="label">
-                <span><?php echo __('Choose an amount to donate'); ?></span>
+                <span><?php echo __('Choose Number of Days for Subcription'); ?></span>
             </label>
             <div class="control">
                 <div class="options-list nested" id="options-4-list">
@@ -17,6 +17,7 @@
                 </div>
             </div>
         </div>
+        <!--
         <div class="field">
             <label class="label">
                 <span><?php echo __('Choose your own Amount %1 (minimum %2)', $block->getCurrencySymbol(), $block->getMinimalDonationAmount()); ?></span>
@@ -25,6 +26,7 @@
                 <input name="amount" id="amount" title="amount" placeholder="<?php echo $block->getCurrencySymbol(); ?>" class="<?php echo $block->getHtmlValidationClasses(); ?>" type="text" data-validate="{required:false, 'validate-number': true}" value="">
             </div>
         </div>
+        -->
     </div>
 </div>
 

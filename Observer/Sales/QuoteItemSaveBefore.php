@@ -19,9 +19,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Observer\Sales;
+namespace ShivankitTech\SubsMod\Observer\Sales;
 
-use Experius\DonationProduct\Model\Product\Type\Donation;
+use ShivankitTech\SubsMod\Model\Product\Type\Subscription;
 
 class QuoteItemSaveBefore implements \Magento\Framework\Event\ObserverInterface
 {

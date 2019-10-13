@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Setup;
+namespace ShivankitTech\SubsMod\Setup;
 
 use Magento\Framework\DB\Ddl\Table;
 use Magento\Framework\Setup\InstallSchemaInterface;
@@ -28,7 +28,7 @@ use Magento\Framework\Setup\SchemaSetupInterface;
 
 /**
  * Class InstallSchema
- * @package Experius\DonationProduct\Setup
+ * @package ShivankitTech\SubsMod\Setup
  */
 class InstallSchema implements InstallSchemaInterface
 {

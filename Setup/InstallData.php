@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Setup;
+namespace ShivankitTech\SubsMod\Setup;
 
 use Magento\Catalog\Model\Product;
 use Magento\Framework\Setup\InstallDataInterface;
@@ -29,7 +29,7 @@ use Magento\Eav\Setup\EavSetupFactory;
 
 /**
  * Class InstallData
- * @package Experius\DonationProduct\Setup
+ * @package ShivankitTech\SubsMod\Setup
  */
 class InstallData implements InstallDataInterface
 {

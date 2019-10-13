@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Helper;
+namespace ShivankitTech\SubsMod\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\App\Helper\Context;
@@ -28,7 +28,7 @@ use Magento\Store\Model\ScopeInterface;
 
 /**
  * Class Data
- * @package Experius\DonationProduct\Helper
+ * @package ShivankitTech\SubsMod\Helper
  */
 class Data extends AbstractHelper
 {
@@ -174,7 +174,7 @@ class Data extends AbstractHelper
      */
     public function getFixedAmounts()
     {
-        $fixedAmountsConfig = [5,10,15,25,50];
+        $fixedAmountsConfig = [7,15,30,365];
 
         $config = $this->scopeConfig->getValue(
             self::DONATION_CONFIGURATION_FIXED_AMOUNTS,
@@ -187,7 +187,8 @@ class Data extends AbstractHelper
 
         $fixedAmounts = [];
         foreach ($fixedAmountsConfig as $fixedAmount) {
-            $fixedAmounts[$fixedAmount] = $this->getCurrencySymbol() . ' ' . $fixedAmount;
+            // $fixedAmounts[$fixedAmount] = $this->getCurrencySymbol() . ' ' . $fixedAmount;
+            $fixedAmounts[$fixedAmount] = $fixedAmount . ' days';
         }
         return $fixedAmounts;
     }

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Experius\DonationProduct\Setup;
+namespace ShivankitTech\SubsMod\Setup;
 
 use Magento\Framework\Setup\UpgradeDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;

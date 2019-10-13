@@ -19,11 +19,11 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Controller\Adminhtml\Donations;
+namespace ShivankitTech\SubsMod\Controller\Adminhtml\Donations;
 
 /**
  * Class Index
- * @package Experius\DonationProduct\Controller\Adminhtml\Donations
+ * @package ShivankitTech\SubsMod\Controller\Adminhtml\Donations
  */
 class Index extends \Magento\Backend\App\Action
 {

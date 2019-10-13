@@ -19,14 +19,14 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Model;
+namespace ShivankitTech\SubsMod\Model;
 
-use Experius\DonationProduct\Api\Data\DonationsInterface;
+use ShivankitTech\SubsMod\Api\Data\DonationsInterface;
 use Magento\Framework\Model\AbstractModel;
 
 /**
  * Class Donations
- * @package Experius\DonationProduct\Model
+ * @package ShivankitTech\SubsMod\Model
  */
 class Donations extends AbstractModel implements DonationsInterface
 {
@@ -35,7 +35,7 @@ class Donations extends AbstractModel implements DonationsInterface
      */
     public function _construct()
     {
-        $this->_init('Experius\DonationProduct\Model\ResourceModel\Donations');
+        $this->_init('ShivankitTech\SubsMod\Model\ResourceModel\Donations');
     }
 
     /**
@@ -50,7 +50,7 @@ class Donations extends AbstractModel implements DonationsInterface
     /**
      * Set donations_id
      * @param string $donationsId
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setDonationsId($donationsId)
     {
@@ -69,7 +69,7 @@ class Donations extends AbstractModel implements DonationsInterface
     /**
      * Set name
      * @param string $name
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setName($name)
     {
@@ -88,7 +88,7 @@ class Donations extends AbstractModel implements DonationsInterface
     /**
      * Set sku
      * @param string $sku
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setSku($sku)
     {
@@ -107,7 +107,7 @@ class Donations extends AbstractModel implements DonationsInterface
     /**
      * Set amount
      * @param string $amount
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setAmount($amount)
     {
@@ -126,7 +126,7 @@ class Donations extends AbstractModel implements DonationsInterface
     /**
      * Set order_item_id
      * @param string $order_item_id
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setOrderItemId($order_item_id)
     {
@@ -145,7 +145,7 @@ class Donations extends AbstractModel implements DonationsInterface
     /**
      * Set order_id
      * @param string $order_id
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setOrderId($order_id)
     {
@@ -164,7 +164,7 @@ class Donations extends AbstractModel implements DonationsInterface
     /**
      * Set order_status
      * @param string $order_status
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setOrderStatus($order_status)
     {
@@ -183,7 +183,7 @@ class Donations extends AbstractModel implements DonationsInterface
     /**
      * Set invoiced
      * @param string $invoiced
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setInvoiced($invoiced)
     {
@@ -202,7 +202,7 @@ class Donations extends AbstractModel implements DonationsInterface
     /**
      * Set created_at
      * @param string $createdAt
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      */
     public function setCreatedAt($createdAt)
     {

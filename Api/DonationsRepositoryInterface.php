@@ -19,11 +19,11 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Api;
+namespace ShivankitTech\SubsMod\Api;
 
 /**
  * Interface DonationsRepositoryInterface
- * @package Experius\DonationProduct\Api
+ * @package ShivankitTech\SubsMod\Api
  */
 interface DonationsRepositoryInterface
 {
@@ -31,18 +31,18 @@ interface DonationsRepositoryInterface
 
     /**
      * Save Donations
-     * @param \Experius\DonationProduct\Api\Data\DonationsInterface $donations
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @param \ShivankitTech\SubsMod\Api\Data\DonationsInterface $donations
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      * @throws \Magento\Framework\Exception\LocalizedException
      */
     public function save(
-        \Experius\DonationProduct\Api\Data\DonationsInterface $donations
+        \ShivankitTech\SubsMod\Api\Data\DonationsInterface $donations
     );
 
     /**
      * Retrieve Donations
      * @param string $donationsId
-     * @return \Experius\DonationProduct\Api\Data\DonationsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsInterface
      * @throws \Magento\Framework\Exception\LocalizedException
      */
     public function getById($donationsId);
@@ -50,7 +50,7 @@ interface DonationsRepositoryInterface
     /**
      * Retrieve Donations matching the specified criteria.
      * @param \Magento\Framework\Api\SearchCriteriaInterface $searchCriteria
-     * @return \Experius\DonationProduct\Api\Data\DonationsSearchResultsInterface
+     * @return \ShivankitTech\SubsMod\Api\Data\DonationsSearchResultsInterface
      * @throws \Magento\Framework\Exception\LocalizedException
      */
     public function getList(
@@ -59,12 +59,12 @@ interface DonationsRepositoryInterface
 
     /**
      * Delete Donations
-     * @param \Experius\DonationProduct\Api\Data\DonationsInterface $donations
+     * @param \ShivankitTech\SubsMod\Api\Data\DonationsInterface $donations
      * @return bool true on success
      * @throws \Magento\Framework\Exception\LocalizedException
      */
     public function delete(
-        \Experius\DonationProduct\Api\Data\DonationsInterface $donations
+        \ShivankitTech\SubsMod\Api\Data\DonationsInterface $donations
     );
 
     /**

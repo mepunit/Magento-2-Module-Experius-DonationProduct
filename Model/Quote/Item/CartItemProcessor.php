@@ -19,10 +19,10 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Model\Quote\Item;
+namespace ShivankitTech\SubsMod\Model\Quote\Item;
 
-use Experius\DonationProduct\Helper\Serializer;
-use Experius\DonationProduct\Model\DonationOptionsFactory;
+use ShivankitTech\SubsMod\Helper\Serializer;
+use ShivankitTech\SubsMod\Model\DonationOptionsFactory;
 use Magento\Quote\Api\Data\ProductOptionExtensionFactory;
 use Magento\Quote\Model\Quote\Item\CartItemProcessorInterface;
 use Magento\Quote\Api\Data\CartItemInterface;
@@ -31,7 +31,7 @@ use Magento\Quote\Model\Quote\ProductOptionFactory;
 
 /**
  * Class CartItemProcessor
- * @package Experius\DonationProduct\Model\Quote\Item
+ * @package ShivankitTech\SubsMod\Model\Quote\Item
  */
 class CartItemProcessor implements CartItemProcessorInterface
 {
@@ -112,7 +112,7 @@ class CartItemProcessor implements CartItemProcessorInterface
         $options = $this->getOptions($cartItem);
         if (!empty($options) && is_array($options)) {
             foreach ($options as $name => $value) {
-                /** @var \Experius\DonationProduct\Model\DonationOptions $donationOptions */
+                /** @var \ShivankitTech\SubsMod\Model\DonationOptions $donationOptions */
                 $donationOptions = $this->donationOptionsFactory->create();
                 $donationOptions->setAmount($value);
             }

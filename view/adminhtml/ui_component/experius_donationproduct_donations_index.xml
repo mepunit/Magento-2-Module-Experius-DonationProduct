@@ -126,7 +126,7 @@
 				</item>
 			</argument>
 		</column>
-		<actionsColumn name="actions" class="Experius\DonationProduct\Ui\Component\Listing\Column\ViewOrder">
+		<actionsColumn name="actions" class="ShivankitTech\SubsMod\Ui\Component\Listing\Column\ViewOrder">
 			<argument name="data" xsi:type="array">
 				<item name="config" xsi:type="array">
 					<item name="indexField" xsi:type="string">order_id</item>

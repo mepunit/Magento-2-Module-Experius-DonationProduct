@@ -19,18 +19,18 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Experius\DonationProduct\Observer\Sales;
+namespace ShivankitTech\SubsMod\Observer\Sales;
 
-use Experius\DonationProduct\Model\DonationsFactory;
-use Experius\DonationProduct\Model\Product\Type\Donation;
-use Experius\DonationProduct\Model\DonationsRepository;
+use ShivankitTech\SubsMod\Model\DonationsFactory;
+use ShivankitTech\SubsMod\Model\Product\Type\Subscription;
+use ShivankitTech\SubsMod\Model\DonationsRepository;
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
 use Magento\Sales\Model\Order;
 
 /**
  * Class OrderItemSaveAfter
- * @package Experius\DonationProduct\Observer\Sales
+ * @package ShivankitTech\SubsMod\Observer\Sales
  */
 class OrderItemSaveAfter implements ObserverInterface
 {
@@ -83,7 +83,7 @@ class OrderItemSaveAfter implements ObserverInterface
             return;
         }
 
-        /** @var \Experius\DonationProduct\Model\Donations $donation */
+        /** @var \ShivankitTech\SubsMod\Model\Donations $donation */
         $donation = $this->donationsModel->create()->load($orderItem->getItemId(), 'order_item_id');
         if ($donation->getId()) {
             if ($orderItem->getQtyOrdered()==$orderItem->getQtyInvoiced()) {
