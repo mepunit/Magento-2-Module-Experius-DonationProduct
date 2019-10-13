@@ -39,7 +39,7 @@ class QuoteItemSaveBefore implements \Magento\Framework\Event\ObserverInterface
 
         $item = $observer->getItem();
 
-        if ($item->getProduct()->getTypeId()==Donation::TYPE_CODE) {
+        if ($item->getProduct()->getTypeId()==Subscription::TYPE_CODE) {
             $item->setNoDiscount(1);
         }
 
